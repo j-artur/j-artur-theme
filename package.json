@@ -4,6 +4,10 @@
 	"description": "Jartur's Custom Theme!",
 	"version": "0.0.1",
 	"publisher": "Jartur",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/j-artur/pixel-loo-theme"
+	},
 	"engines": {
 		"vscode": "^1.46.0"
 	},
