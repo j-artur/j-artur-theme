@@ -3,6 +3,7 @@
 	"displayName": "Jartur",
 	"description": "Jartur's Custom Theme!",
 	"version": "0.0.1",
+	"publisher": "Jartur",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
