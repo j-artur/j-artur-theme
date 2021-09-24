@@ -2,35 +2,6 @@
 	"name": "Jartur",
 	"type": "dark",
 	"semanticHighlighting": true,
-	"semanticTokenColors": {
-		"namespace": {
-			"foreground": "#aaaaff",
-			"fontStyle": "bold"
-		},
-		"keyword": {
-			"fontStyle": "bold"
-		},
-		"*.defaultLibrary": {
-			"fontStyle": "bold"
-		},
-		"parameter": {
-			"foreground": "#78a",
-			"fontStyle": "italic"
-		},
-		"property.defaultLibrary": {
-			"foreground": "#abf",
-			"fontStyle": "bold"
-		},
-		"function.defaultLibrary": {
-			"foreground": "#4cf"
-		},
-		"method.defaultLibrary": {
-			"foreground": "#4cf"
-		},
-		"variable.defaultLibrary": {
-			"foreground": "#8cf"
-		}
-	},
 	"colors": {
 		"activityBar.background": "#14161A",
 		"activityBar.foreground": "#BCBFC4",
@@ -152,6 +123,35 @@
 		"titleBar.inactiveForeground": "#555A63",
 		"walkThrough.embeddedEditorBackground": "#171A21"
 	},
+	"semanticTokenColors": {
+		"namespace": {
+			"foreground": "#aaaaff",
+			"fontStyle": "bold"
+		},
+		"keyword": {
+			"foreground": "#aaccff",
+			"fontStyle": "bold"
+		},
+		"parameter": {
+			"foreground": "#7788aa",
+			"fontStyle": "italic"
+		},
+		"property.defaultLibrary": {
+			"foreground": "#aabbff"
+		},
+		"function.defaultLibrary": {
+			"foreground": "#44ccff"
+		},
+		"method.defaultLibrary": {
+			"foreground": "#44ccff"
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#88ccff"
+		},
+		"*.defaultLibrary": {
+			"fontStyle": "bold"
+		}
+	},
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -172,20 +172,6 @@
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
 				"foreground": "#77aadd"
-			}
-		},
-		{
-			"name": "Constants",
-			"scope": [
-				"variable.language",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape"
-			],
-			"settings": {
-				"foreground": "#77bbee",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -262,9 +248,23 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method",
-				"storage.type.function.arrow"
+				"keyword.other.special-method"
 			],
+			"settings": {
+				"foreground": "#44aaee"
+			}
+		},
+		{
+			"name": "Support Functions, Methods",
+			"scope": ["support.function"],
+			"settings": {
+				"foreground": "#44aaee",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Arrow Function",
+			"scope": ["storage.type.function.arrow"],
 			"settings": {
 				"foreground": "#44aaee",
 				"fontStyle": ""
@@ -280,9 +280,23 @@
 		},
 		{
 			"name": "Variables",
-			"scope": ["variable.other", "support.other.variable"],
+			"scope": ["variable.other", "support.other.variable", "support.variable.property"],
 			"settings": {
 				"foreground": "#77aadd"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"variable.language",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape"
+			],
+			"settings": {
+				"foreground": "#77bbee",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -290,6 +304,14 @@
 			"scope": ["meta.object-literal.key", "entity.other.attribute-name"],
 			"settings": {
 				"foreground": "#77aadd"
+			}
+		},
+		{
+			"name": "Support Attributes",
+			"scope": ["support.variable.property", "support.constant.property"],
+			"settings": {
+				"foreground": "#aabbff",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -314,13 +336,12 @@
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class",
 			"scope": [
-				"entity.name",
+				"entity.name.type.class",
 				"support.class",
 				"entity.other.inherited-class",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"markup.changed.git_gutter"
 			],
 			"settings": {
 				"foreground": "#55bbdd"
@@ -331,6 +352,14 @@
 			"scope": ["entity.name.type", "support.type"],
 			"settings": {
 				"foreground": "#55cccc"
+			}
+		},
+		{
+			"name": "Support Class",
+			"scope": ["support.class", "support.type.sys-types"],
+			"settings": {
+				"foreground": "#55bbdd",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -347,7 +376,6 @@
 				"foreground": "#77aadd"
 			}
 		},
-
 		{
 			"name": "HTML Attributes",
 			"scope": ["entity.other.attribute-name.html"],
@@ -416,9 +444,11 @@
 			"name": "Decorators",
 			"scope": [
 				"punctuation.decorator",
+				"punctuation.definition.annotation",
+				"meta.declaration.annotation",
 				"meta.decorator entity.name.function",
 				"meta.decorator variable.other",
-				"meta.decorator meta"
+				"meta.decorator"
 			],
 			"settings": {
 				"foreground": "#9988ff",
