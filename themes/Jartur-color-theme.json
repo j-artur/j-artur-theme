@@ -124,17 +124,60 @@
 		"walkThrough.embeddedEditorBackground": "#171A21"
 	},
 	"semanticTokenColors": {
-		"namespace": {
-			"foreground": "#aaaaff",
-			"fontStyle": "bold"
-		},
 		"keyword": {
 			"foreground": "#aaccff",
 			"fontStyle": "bold"
 		},
+		"comment": {
+			"foreground": "#778899",
+			"fontStyle": "italic"
+		},
+		"function": {
+			"foreground": "#44aaee"
+		},
+		"method": {
+			"foreground": "#44aaee"
+		},
+		"modifier": {
+			"foreground": "#aaccff",
+			"fontStyle": "bold"
+		},
+		"newOperator": {
+			"foreground": "#aaccff",
+			"fontStyle": "bold"
+		},
+		"operator": {
+			"foreground": "#aaccff"
+		},
+		"number": {
+			"foreground": "#88eecc"
+		},
+		"string": {
+			"foreground": "#66dd88"
+		},
+		"variable": {
+			"foreground": "#77aadd"
+		},
+		"attribute": {
+			"foreground": "#99bbee"
+		},
+		"property": {
+			"foreground": "#99bbee"
+		},
+		"annotation": {
+			"foreground": "#9988ff",
+			"fontStyle": "bold"
+		},
+		"class": {
+			"foreground": "#55bbdd"
+		},
 		"parameter": {
 			"foreground": "#7788aa",
 			"fontStyle": "italic"
+		},
+		"namespace": {
+			"foreground": "#aaaaff",
+			"fontStyle": "bold"
 		},
 		"property.defaultLibrary": {
 			"foreground": "#aabbff"
@@ -227,11 +270,18 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.operator",
-				"keyword.other"
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#aaccff"
+			}
+		},
+		{
+			"name": "Other Keywords",
+			"scope": ["keyword.other"],
+			"settings": {
+				"foreground": "#aaccff",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -280,7 +330,7 @@
 		},
 		{
 			"name": "Variables",
-			"scope": ["variable.other", "support.other.variable", "support.variable.property"],
+			"scope": ["variable.other", "support.other.variable"],
 			"settings": {
 				"foreground": "#77aadd"
 			}
@@ -301,9 +351,13 @@
 		},
 		{
 			"name": "Attributes",
-			"scope": ["meta.object-literal.key", "entity.other.attribute-name"],
+			"scope": [
+				"meta.object-literal.key",
+				"support.variable.property",
+				"entity.other.attribute-name"
+			],
 			"settings": {
-				"foreground": "#77aadd"
+				"foreground": "#88bbdd"
 			}
 		},
 		{
