@@ -218,18 +218,6 @@
 			}
 		},
 		{
-			"name": "Constant primitives",
-			"scope": [
-				"constant.language.boolean",
-				"constant.language.null",
-				"constant.language.undefined"
-			],
-			"settings": {
-				"foreground": "#6688dd",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Invalid",
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
