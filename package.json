@@ -6,7 +6,7 @@
 	"publisher": "Jartur",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/j-artur/pixel-loo-theme"
+		"url": "https://github.com/j-artur/j-artur-theme"
 	},
 	"engines": {
 		"vscode": "^1.46.0"
