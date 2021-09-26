@@ -341,11 +341,12 @@
 			"name": "Attributes",
 			"scope": [
 				"meta.object-literal.key",
-				"support.variable.property",
+				"variable.other.property",
+				"variable.other.object.property",
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#88bbdd"
+				"foreground": "#99bbee"
 			}
 		},
 		{
