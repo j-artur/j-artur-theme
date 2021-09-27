@@ -343,6 +343,7 @@
 				"meta.object-literal.key",
 				"variable.other.property",
 				"variable.other.object.property",
+				"variable.other.constant.property",
 				"entity.other.attribute-name"
 			],
 			"settings": {
