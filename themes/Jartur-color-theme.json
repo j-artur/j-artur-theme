@@ -125,8 +125,7 @@
 	},
 	"semanticTokenColors": {
 		"keyword": {
-			"foreground": "#aaccff",
-			"fontStyle": "bold"
+			"foreground": "#aaccff"
 		},
 		"comment": {
 			"foreground": "#778899",
@@ -235,7 +234,6 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
 				"keyword.control",
 				"keyword.operator.expression",
 				"keyword.operator.new",
@@ -249,20 +247,11 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
-			"scope": [
-				"constant.other.color",
-				"punctuation",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.operator"
-			],
+			"name": "Operators",
+			"scope": ["keyword", "keyword.operator"],
 			"settings": {
-				"foreground": "#aaccff"
+				"foreground": "#aaccff",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -271,6 +260,22 @@
 			"settings": {
 				"foreground": "#aaccff",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Misc",
+			"scope": [
+				"constant.other.color",
+				"punctuation",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#aaccff"
 			}
 		},
 		{
