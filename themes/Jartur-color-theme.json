@@ -235,12 +235,13 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"storage.modifier",
+				"keyword",
 				"keyword.control",
 				"keyword.operator.expression",
 				"keyword.operator.new",
 				"variable.language.this",
-				"variable.language.super"
+				"variable.language.super",
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#aaccff",
