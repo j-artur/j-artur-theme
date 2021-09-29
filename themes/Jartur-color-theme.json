@@ -299,14 +299,6 @@
 			}
 		},
 		{
-			"name": "Support Functions, Methods",
-			"scope": ["support.function"],
-			"settings": {
-				"foreground": "#44aaee",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Arrow Function",
 			"scope": ["storage.type.function.arrow"],
 			"settings": {
@@ -357,14 +349,6 @@
 			}
 		},
 		{
-			"name": "Support Attributes",
-			"scope": ["support.variable.property", "support.constant.property"],
-			"settings": {
-				"foreground": "#aabbff",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Number",
 			"scope": ["constant.numeric"],
 			"settings": {
@@ -399,17 +383,9 @@
 		},
 		{
 			"name": "Entity Types",
-			"scope": ["entity.name.type", "support.type"],
+			"scope": ["entity.name.type", "support.type", "support.type.sys-types"],
 			"settings": {
 				"foreground": "#55cccc"
-			}
-		},
-		{
-			"name": "Support Class",
-			"scope": ["support.class", "support.type.sys-types"],
-			"settings": {
-				"foreground": "#55bbdd",
-				"fontStyle": "bold"
 			}
 		},
 		{
