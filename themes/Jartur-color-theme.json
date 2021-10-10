@@ -190,6 +190,9 @@
 		"variable.defaultLibrary": {
 			"foreground": "#88ccff"
 		},
+		"enumMember": {
+			"foreground": "#88ccff"
+		},
 		"*.defaultLibrary": {
 			"fontStyle": "bold"
 		}
@@ -346,6 +349,13 @@
 			],
 			"settings": {
 				"foreground": "#99bbee"
+			}
+		},
+		{
+			"name": "Enum Member",
+			"scope": ["variable.other.enummember"],
+			"settings": {
+				"foreground": "#88ccff"
 			}
 		},
 		{
