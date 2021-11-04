@@ -424,6 +424,61 @@
 				"foreground": "#77bbee"
 			}
 		},
+		/* Elm */
+		{
+			"name": "Module, namespace",
+			"scope": ["support.module.elm"],
+			"settings": {
+				"foreground": "#aaaaff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": ["storage.type.elm"],
+			"settings": {
+				"foreground": "#55cccc",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Custom/Union Types",
+			"scope": ["constant.type-constructor.elm"],
+			"settings": {
+				"foreground": "#77bbee",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": ["keyword.type.elm", "keyword.type-alias.elm"],
+			"settings": {
+				"foreground": "#aaccff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Records",
+			"scope": ["record.name.elm"],
+			"settings": {
+				"foreground": "#77bbee"
+			}
+		},
+		{
+			"name": "Record Fields",
+			"scope": ["entity.name.record.field.elm", "entity.name.record.field.accessor.elm"],
+			"settings": {
+				"foreground": "#99bbee"
+			}
+		},
+		{
+			"name": "Values / Parameters",
+			"scope": ["meta.value.elm"],
+			"settings": {
+				"foreground": "#44aaee",
+				"fontStyle": "italic"
+			}
+		},
 		/* HTML CSS */
 		{
 			"name": "CSS Class and Support",
@@ -505,28 +560,6 @@
 			"scope": ["*url*", "*link*", "*uri*"],
 			"settings": {
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Decorators",
-			"scope": [
-				"punctuation.decorator",
-				"punctuation.definition.annotation",
-				"meta.declaration.annotation",
-				"meta.decorator entity.name.function",
-				"meta.decorator variable.other",
-				"meta.decorator"
-			],
-			"settings": {
-				"foreground": "#9988ff",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "JSON Key",
-			"scope": ["source.json punctuation", "support.type.property-name.json"],
-			"settings": {
-				"foreground": "#77bbee"
 			}
 		},
 		{
