@@ -441,7 +441,11 @@
 		},
 		{
 			"name": "HTML Attributes",
-			"scope": ["entity.other.attribute-name.html"],
+			"scope": [
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.jsx",
+				"entity.other.attribute-name.tsx"
+			],
 			"settings": {
 				"foreground": "#7788aa",
 				"fontStyle": "italic"
