@@ -163,10 +163,6 @@
 		"property": {
 			"foreground": "#99bbee"
 		},
-		"annotation": {
-			"foreground": "#9988ff",
-			"fontStyle": "bold"
-		},
 		"class": {
 			"foreground": "#55bbdd"
 		},
@@ -398,6 +394,37 @@
 				"foreground": "#55cccc"
 			}
 		},
+		{
+			"name": "Decorators",
+			"scope": ["punctuation.decorator", "punctuation.definition.annotation"],
+			"settings": {
+				"foreground": "#aaccff",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": ["storage.type.annotation"],
+			"settings": {
+				"foreground": "#aaccff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": ["meta.decorator", "meta.declaration.annotation"],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSON Key",
+			"scope": ["source.json punctuation", "support.type.property-name.json"],
+			"settings": {
+				"foreground": "#77bbee"
+			}
+		},
+		/* HTML CSS */
 		{
 			"name": "CSS Class and Support",
 			"scope": [
