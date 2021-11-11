@@ -442,11 +442,17 @@
 			}
 		},
 		{
+			"name": "Type Parameter",
+			"scope": ["variable.type.elm"],
+			"settings": {
+				"foreground": "#55bbdd"
+			}
+		},
+		{
 			"name": "Custom/Union Types",
 			"scope": ["constant.type-constructor.elm"],
 			"settings": {
-				"foreground": "#77bbee",
-				"fontStyle": "bold"
+				"foreground": "#88ccff"
 			}
 		},
 		{
@@ -472,11 +478,10 @@
 			}
 		},
 		{
-			"name": "Values / Parameters",
+			"name": "Values",
 			"scope": ["meta.value.elm"],
 			"settings": {
-				"foreground": "#44aaee",
-				"fontStyle": "italic"
+				"foreground": "#77aadd"
 			}
 		},
 		/* HTML CSS */
