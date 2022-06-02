@@ -125,8 +125,8 @@
   },
   "semanticTokenColors": {
     "keyword": {
-      "foreground": "#aaccff",
-      "fontStyle": "italic"
+      "foreground": "#aaccff"
+      // "fontStyle": "italic"
     },
     "comment": {
       "foreground": "#778899",
@@ -168,8 +168,8 @@
       "foreground": "#55bbdd"
     },
     "parameter": {
-      "foreground": "#7788aa",
-      "fontStyle": "italic"
+      "foreground": "#bb88dd"
+      // "fontStyle": "italic"
     },
     "namespace": {
       "foreground": "#aaaaff"
@@ -227,9 +227,9 @@
       "name": "Storage",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#9988ff",
+        "foreground": "#9988ff"
         // "fontStyle": "bold"
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -243,9 +243,9 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#aaccff",
+        "foreground": "#aaccff"
         // "fontStyle": "bold"
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -259,9 +259,9 @@
       "name": "Other Keywords",
       "scope": ["keyword.other"],
       "settings": {
-        "foreground": "#aaccff",
+        "foreground": "#aaccff"
         // "fontStyle": "bold"
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -316,8 +316,8 @@
       "name": "Parameter",
       "scope": ["variable.parameter", "parameter"],
       "settings": {
-        "foreground": "#7788aa",
-        "fontStyle": "italic"
+        "foreground": "#bb88dd"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -405,24 +405,24 @@
       "name": "Decorators",
       "scope": ["punctuation.decorator", "punctuation.definition.annotation"],
       "settings": {
-        "foreground": "#aaccff",
+        "foreground": "#aaccff"
         // "fontStyle": "bold italic"
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
       }
     },
     {
       "name": "Decorators",
       "scope": ["storage.type.annotation"],
       "settings": {
-        "foreground": "#aaccff",
-        "fontStyle": "italic"
+        "foreground": "#aaccff"
+        // "fontStyle": "italic"
       }
     },
     {
       "name": "Decorators",
       "scope": ["meta.decorator", "meta.declaration.annotation"],
       "settings": {
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -430,70 +430,6 @@
       "scope": ["source.json punctuation", "support.type.property-name.json"],
       "settings": {
         "foreground": "#77bbee"
-      }
-    },
-    /* Elm */
-    {
-      "name": "Module, namespace",
-      "scope": ["support.module.elm"],
-      "settings": {
-        "foreground": "#aaaaff"
-        // "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Types",
-      "scope": ["storage.type.elm"],
-      "settings": {
-        "foreground": "#55cccc"
-        // "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Type Parameter",
-      "scope": ["variable.type.elm"],
-      "settings": {
-        "foreground": "#55bbdd"
-      }
-    },
-    {
-      "name": "Custom/Union Types",
-      "scope": ["constant.type-constructor.elm"],
-      "settings": {
-        "foreground": "#88ccff"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": ["keyword.type.elm", "keyword.type-alias.elm"],
-      "settings": {
-        "foreground": "#aaccff",
-        // "fontStyle": "bold"
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Records",
-      "scope": ["record.name.elm"],
-      "settings": {
-        "foreground": "#77bbee"
-      }
-    },
-    {
-      "name": "Record Fields",
-      "scope": [
-        "entity.name.record.field.elm",
-        "entity.name.record.field.accessor.elm"
-      ],
-      "settings": {
-        "foreground": "#99bbee"
-      }
-    },
-    {
-      "name": "Values",
-      "scope": ["meta.value.elm"],
-      "settings": {
-        "foreground": "#77aadd"
       }
     },
     /* HTML CSS */
@@ -519,8 +455,8 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#7788aa",
-        "fontStyle": "italic"
+        "foreground": "#aa88dd"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -570,13 +506,6 @@
       "scope": ["constant.character.escape"],
       "settings": {
         "foreground": "#89DDFF"
-      }
-    },
-    {
-      "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
-      "settings": {
-        "fontStyle": "underline"
       }
     },
     {
