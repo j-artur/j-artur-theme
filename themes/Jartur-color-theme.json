@@ -330,6 +330,13 @@
       }
     },
     {
+      "name": "Namespace / Module",
+      "scope": ["entity.name.module", "namespace"],
+      "settings": {
+        "foreground": "#bbaaff"
+      }
+    },
+    {
       "name": "Variables",
       "scope": ["variable.other", "support.other.variable"],
       "settings": {
