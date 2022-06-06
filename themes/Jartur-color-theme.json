@@ -164,10 +164,20 @@
     "property": {
       "foreground": "#99bbee"
     },
+    "interface": {
+      "foreground": "#55cccc"
+    },
+    "selfTypeKeyword": {
+      "foreground": "#55cccc"
+    },
     "class": {
       "foreground": "#55bbdd"
     },
     "parameter": {
+      "foreground": "#99aaff"
+      // "fontStyle": "italic"
+    },
+    "selfKeyword": {
       "foreground": "#99aaff"
       // "fontStyle": "italic"
     },
