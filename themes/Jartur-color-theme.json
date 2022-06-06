@@ -248,7 +248,6 @@
         "keyword.control",
         "keyword.operator.expression",
         "keyword.operator.new",
-        "variable.language.this",
         "variable.language.super",
         "storage.modifier"
       ],
@@ -324,7 +323,7 @@
     },
     {
       "name": "Parameter",
-      "scope": ["variable.parameter", "parameter"],
+      "scope": ["variable.parameter", "parameter", "variable.language.this"],
       "settings": {
         "foreground": "#99aaff"
         // "fontStyle": "italic"
