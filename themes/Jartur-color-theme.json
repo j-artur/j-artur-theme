@@ -168,11 +168,11 @@
       "foreground": "#55bbdd"
     },
     "parameter": {
-      "foreground": "#bb88dd"
+      "foreground": "#99aaff"
       // "fontStyle": "italic"
     },
     "namespace": {
-      "foreground": "#aaaaff"
+      "foreground": "#bbaaff"
       // "fontStyle": "bold"
     },
     "property.defaultLibrary": {
@@ -316,7 +316,7 @@
       "name": "Parameter",
       "scope": ["variable.parameter", "parameter"],
       "settings": {
-        "foreground": "#bb88dd"
+        "foreground": "#99aaff"
         // "fontStyle": "italic"
       }
     },
@@ -455,7 +455,7 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#aa88dd"
+        "foreground": "#99aaff"
         // "fontStyle": "italic"
       }
     },
