@@ -313,6 +313,11 @@
     },
     /* Elm */
     {
+      "name": "Types",
+      "scope": ["storage.type.elm"],
+      "settings": { "foreground": "#55cccc" }
+    },
+    {
       "name": "Type Constructors",
       "scope": ["constant.type-constructor.elm"],
       "settings": { "foreground": "#55bbdd" }
