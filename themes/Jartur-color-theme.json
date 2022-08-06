@@ -140,6 +140,7 @@
     "interface": "#55cccc",
     "selfTypeKeyword": "#55cccc",
     "class": "#55bbdd",
+    "annotation": "#aaccff",
     "parameter": "#99aaff",
     "selfKeyword": "#99aaff",
     "namespace": "#bbaaff",
@@ -178,14 +179,19 @@
       "settings": { "foreground": "#ffffff" }
     },
     {
+      "name": "Storage",
+      "scope": ["storage.type"],
+      "settings": { "foreground": "#9988ff" }
+    },
+    {
       "name": "Types",
-      "scope": [
-        "storage.type",
-        "entity.name.type",
-        "support.type",
-        "support.type.sys-types"
-      ],
+      "scope": ["entity.name.type", "support.type", "support.type.sys-types"],
       "settings": { "foreground": "#55cccc" }
+    },
+    {
+      "name": "Arrow Function",
+      "scope": ["storage.type.function.arrow"],
+      "settings": { "foreground": "#44aaee" }
     },
     {
       "name": "Keywords",
