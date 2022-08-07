@@ -176,7 +176,7 @@
     {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
-      "settings": { "foreground": "#ffffff" }
+      "settings": { "foreground": "#ff5566" }
     },
     {
       "name": "Storage",
