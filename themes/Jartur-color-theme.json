@@ -48,6 +48,8 @@
     "tab.activeBorder": "#3b82f6",
     "tab.inactiveBackground": "#111316",
 
+    "list.hoverBackground": "#2F343C",
+
     "diffEditor.insertedLineBackground": "#052e167f",
     "diffEditor.insertedTextBackground": "#14532d7f",
     "diffEditor.removedLineBackground": "#450a0a7f",
@@ -104,7 +106,9 @@
 
     "focusBorder": "#2F343C",
     "gitDecoration.ignoredResourceForeground": "#6D7A8D",
-    "input.background": "#111316",
+    "input.background": "#2F343C",
+    "input.foreground": "#D7DAE0",
+    "input.placeholderForeground": "#A3ABB8",
     "panelSectionHeader.background": "#1B1E23",
     "peekViewEditor.background": "#111316",
     "peekViewEditor.matchHighlightBackground": "#1B1E23",
