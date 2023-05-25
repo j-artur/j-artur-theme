@@ -152,7 +152,7 @@
     "newOperator": "#bfdbfe",
     "operator": "#bfdbfe",
     "number": "#99f6e4",
-    "string": "#34d399",
+    "string": "#4ade80",
     "variable": "#93c5fd",
     "attribute": "#93c5fd",
     "property": "#93c5fd",
@@ -348,7 +348,7 @@
         "constant.other.key"
       ],
       "settings": {
-        "foreground": "#34d399"
+        "foreground": "#4ade80"
       }
     },
     {
@@ -467,7 +467,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#34d399"
+        "foreground": "#4ade80"
       }
     },
     {
