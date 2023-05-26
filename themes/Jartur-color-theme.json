@@ -62,6 +62,9 @@
     "editorGutter.deletedBackground": "#7f1d1d",
     "editorGutter.modifiedBackground": "#1e3a8a",
 
+    "editorError.foreground": "#b91c1c",
+    "editorWarning.foreground": "#ca8a04",
+
     "descriptionForeground": "#A3ABB8",
     "dropdown.background": "#111316",
     "dropdown.border": "#111316",
@@ -85,7 +88,6 @@
     "editorBracketMatch.border": "#2F343C",
     "editorCursor.background": "#E5E7EB",
     "editorCursor.foreground": "#3b82f6",
-    "editorError.foreground": "#7f1d1d",
     "editorGroup.border": "#1B1E23",
     "editorGroupHeader.tabsBackground": "#111316",
     "editorHoverWidget.background": "#111316",
