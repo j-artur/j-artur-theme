@@ -163,17 +163,17 @@
       "foreground": "#2dd4bf",
       "fontStyle": "bold"
     },
-    "class": "#06b6d4",
+    "class": "#22d3ee",
     "parameter": {
       "foreground": "#c7d2fe",
       "fontStyle": "italic"
     },
     "selfKeyword": "#c7d2fe",
     "namespace": "#c4b5fd",
-    "enumMember": "#67e8f9",
+    "enumMember": "#7dd3fc",
     "function.defaultLibrary": "#22d3ee",
     "method.defaultLibrary": "#22d3ee",
-    "class.defaultLibrary": "#22d3ee",
+    "class.defaultLibrary": "#67e8f9",
     "variable.defaultLibrary": "#7dd3fc",
     "property.defaultLibrary": "#7dd3fc",
     "*.defaultLibrary": {
@@ -330,7 +330,7 @@
       "name": "Enum Member",
       "scope": ["variable.other.enummember", "constant.other.enum"],
       "settings": {
-        "foreground": "#67e8f9"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -356,7 +356,7 @@
       "name": "Classes",
       "scope": ["entity.name.type.class", "support.class", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "#06b6d4"
+        "foreground": "#22d3ee"
       }
     },
     {
@@ -395,7 +395,7 @@
       "name": "Type Constructors",
       "scope": ["constant.type-constructor.elm"],
       "settings": {
-        "foreground": "#06b6d4"
+        "foreground": "#22d3ee"
       }
     },
     {
