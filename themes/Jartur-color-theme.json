@@ -108,7 +108,8 @@
 
     "focusBorder": "#2F343C",
     "gitDecoration.ignoredResourceForeground": "#6D7A8D",
-    "input.background": "#2F343C",
+    "input.background": "#1B1E23",
+    "input.border": "#2F343C",
     "input.foreground": "#D7DAE0",
     "input.placeholderForeground": "#A3ABB8",
     "panelSectionHeader.background": "#1B1E23",
@@ -116,9 +117,9 @@
     "peekViewEditor.matchHighlightBackground": "#1B1E23",
     "peekViewResult.background": "#111316",
 
-    "scrollbarSlider.activeBackground": "#2F343C",
-    "scrollbarSlider.background": "#1B1E23",
-    "scrollbarSlider.hoverBackground": "#454D59",
+    "scrollbarSlider.activeBackground": "#1B1E237f",
+    "scrollbarSlider.background": "#1113167f",
+    "scrollbarSlider.hoverBackground": "#454D597f",
 
     "terminal.ansiBlack": "#3f4451",
     "terminal.ansiBlue": "#4aa5f0",
