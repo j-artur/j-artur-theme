@@ -72,7 +72,7 @@
     "editor.foreground": "#A3ABB8",
     "editor.findMatchBackground": "#2F343C",
     "editor.findMatchBorder": "#3b82f6",
-    "editor.findMatchHighlightBackground": "#2F343C",
+    "editor.findMatchHighlightBackground": "#2F343C7f",
     "editor.lineHighlightBackground": "#1C1F26",
     "editorLineNumber.activeForeground": "#9298A3",
 
@@ -92,8 +92,10 @@
     "editorGroupHeader.tabsBackground": "#111316",
     "editorHoverWidget.background": "#111316",
     "editorHoverWidget.border": "#1B1E23",
-    "editorIndentGuide.activeBackground": "#2F343C",
-    "editorIndentGuide.background": "#1B1E23",
+    "editorIndentGuide.activeBackground1": "#2F343C",
+    "editorIndentGuide.activeBackground2": "#2F343C",
+    "editorIndentGuide.background1": "#1B1E23",
+    "editorIndentGuide.background2": "#1B1E23",
     "editorWhitespace.foreground": "#454D59",
     "editorLineNumber.foreground": "#596373",
     "editorMarkerNavigation.background": "#1B1E23",
@@ -323,7 +325,8 @@
         "variable.other.object.property",
         "variable.other.constant.property",
         "entity.other.attribute-name",
-        "entity.name.record.field"
+        "entity.name.record.field",
+        "support.variable.property"
       ],
       "settings": {
         "foreground": "#93c5fd"
